@@ -168,25 +168,20 @@ nav {
   flex-direction: column;
   gap: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.section5 {
+  background-color: #c3e3fd;
+}
+.x4 {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+}
+.chi {
+  font-size: 40px;
+}
 
 @media (max-width: 500px) {
   nav,
@@ -225,13 +220,13 @@ nav {
   }
   .section1 img:nth-child(4) {
     position: relative;
-    right: -280px;
+    right: -220px;
     top: 250px;
   }
   .section1 img:nth-child(5) {
     position: relative;
     left: 50px;
-    top: 330px;
+    top: 370px;
   }
   .section1 img:nth-child(6) {
     position: relative;
@@ -255,8 +250,11 @@ nav {
   }
   .section1 img:nth-child(8) {
     position: relative;
-    left:25px;
+    left: 25px;
     top: 20px;
+  }
+  .section1 img{
+    display: none;
   }
   .take {
     flex-direction: column;
@@ -277,14 +275,27 @@ nav {
     align-items: center;
     padding: 10px;
   }
-  .section3{
+  .section3 {
     flex-direction: column;
     gap: 30px;
     align-items: center;
   }
-  .section4{
+  .section4 {
     flex-direction: column-reverse;
     gap: 30px;
     align-items: center;
+  }
+  .section4 img,
+  .section3 img {
+    width: 100%;
+  }
+  .section4 aside,
+  .section3 aside{
+    width: 380px;
+  }
+  
+  .x4 {
+    flex-direction: column;
+    gap: 50px;
   }
 }
