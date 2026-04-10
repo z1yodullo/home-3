@@ -203,7 +203,19 @@ nav {
     display: flex;
     padding: 20px;
 }
-
+.section8{
+    background-color: #f1dfd5;
+}
+.obsh{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.surat{
+    padding: 20px 0px;
+    display: flex;
+    gap: 30px;
+}
 
 
 
@@ -346,5 +358,9 @@ nav {
   .verx , .vniz{
     flex-direction: column;
     gap: 20px;
+}
+.surat{
+    flex-direction: column;
+    padding: 20px;
 }
 }
