@@ -216,6 +216,10 @@ nav {
     display: flex;
     gap: 30px;
 }
+.section9{
+    max-width: 1200px;
+    margin: auto;
+}
 
 
 
@@ -362,5 +366,11 @@ nav {
 .surat{
     flex-direction: column;
     padding: 20px;
+}
+.xast{
+    display: none;
+}
+.section9{
+    padding: 25px;
 }
 }
