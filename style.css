@@ -195,6 +195,30 @@ nav {
   flex-direction: column;
   gap: 20px;
 }
+.section7{
+    max-width: 1200px;
+    margin: auto;
+}
+.verx , .vniz{
+    display: flex;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 500px) {
   nav,
@@ -319,4 +343,8 @@ nav {
   .section6 img {
     width: 100%;
   }
+  .verx , .vniz{
+    flex-direction: column;
+    gap: 20px;
+}
 }
