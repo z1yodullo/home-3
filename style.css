@@ -105,6 +105,53 @@ nav {
   background-color: white;
   border: 2px solid black;
 }
+.section2{
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0px;
+}
+.take{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+.take p{
+    width: 500px;
+}
+.chil{
+    width: 460px;
+    font-size: 40px;
+}
+.cont{
+    display: flex;
+    gap: 30px;
+}
+.card{
+    width: 350px;
+    padding: 15px 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.more{
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 500px) {
   nav,
@@ -175,5 +222,21 @@ nav {
   position: relative;
   left: -25px;
   top: 75px;
+}
+.take{
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+.take p{
+    width: 100%;
+}
+.chil{
+    width: 100%;
+    font-size: 24px;
+}
+.cont{
+    flex-direction: column;
+    padding: 10px;
 }
 }
