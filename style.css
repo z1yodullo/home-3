@@ -105,41 +105,76 @@ nav {
   background-color: white;
   border: 2px solid black;
 }
-.section2{
-    max-width: 1200px;
-    margin: auto;
-    padding: 30px 0px;
+.section2 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 0px;
 }
-.take{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 0px;
+.take {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
 }
-.take p{
-    width: 500px;
+.take p {
+  width: 500px;
 }
-.chil{
-    width: 460px;
-    font-size: 40px;
+.chil {
+  width: 460px;
+  font-size: 40px;
 }
-.cont{
-    display: flex;
-    gap: 30px;
+.cont {
+  display: flex;
+  gap: 30px;
 }
-.card{
-    width: 350px;
-    padding: 15px 30px;
-    border: 2px solid black;
-    border-radius: 15px;
+.card {
+  width: 350px;
+  padding: 15px 30px;
+  border: 2px solid black;
+  border-radius: 15px;
 }
-.more{
-    border: none;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    padding: 20px 0px;
+.more {
+  border: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
 }
+.section3 {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+  align-items: center;
+}
+.section3 aside {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section4 {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+  align-items: center;
+}
+.section4 aside {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -174,69 +209,82 @@ nav {
     padding: 5px;
   }
   .section1 img:first-child {
-  position: relative;
-  left: 0px;
-  top: 370px;
-}
-.section1 img:nth-child(2) {
-  position: relative;
-  right: 240px;
-  top: 90px;
-}
-.section1 img:nth-child(3) {
-  position: relative;
-  right: 0px;
-  top: 0px;
-}
-.section1 img:nth-child(4) {
-  position: relative;
-  right: 150px;
-  top: 270px;
-}
-.section1 img:nth-child(5) {
-  position: relative;
-  left: 100px;
-  top: 270px;
-}
-.section1 img:nth-child(6) {
-  position: relative;
-  right: 250px;
-  top: 80px;
-}
-.section1 img:nth-child(7) {
-  position: relative;
-  left: -320px;
-  top: 140px;
-}
-.section1 img:nth-child(8) {
-  position: relative;
-  left: 0px;
-  top: 35px;
-}
-.section1 img:nth-child(9) {
-  position: relative;
-  left: 10px;
-  top: 340px;
-}
-.section1 img:nth-child(8) {
-  position: relative;
-  left: -25px;
-  top: 75px;
-}
-.take{
+    position: relative;
+    left: 0px;
+    top: 340px;
+  }
+  .section1 img:nth-child(2) {
+    position: relative;
+    right: 0px;
+    top: 220px;
+  }
+  .section1 img:nth-child(3) {
+    position: relative;
+    right: 60px;
+    top: -50px;
+  }
+  .section1 img:nth-child(4) {
+    position: relative;
+    right: -280px;
+    top: 250px;
+  }
+  .section1 img:nth-child(5) {
+    position: relative;
+    left: 50px;
+    top: 330px;
+  }
+  .section1 img:nth-child(6) {
+    position: relative;
+    right: 250px;
+    top: 80px;
+  }
+  .section1 img:nth-child(7) {
+    position: relative;
+    left: -320px;
+    top: 140px;
+  }
+  .section1 img:nth-child(8) {
+    position: relative;
+    left: 0px;
+    top: 35px;
+  }
+  .section1 img:nth-child(9) {
+    position: relative;
+    left: 10px;
+    top: 340px;
+  }
+  .section1 img:nth-child(8) {
+    position: relative;
+    left:25px;
+    top: 20px;
+  }
+  .take {
     flex-direction: column;
+    gap: 15px;
     text-align: center;
     padding: 20px;
-}
-.take p{
+  }
+  .take p {
     width: 100%;
-}
-.chil{
+    font-size: 17px;
+  }
+  .chil {
     width: 100%;
-    font-size: 24px;
-}
-.cont{
+    font-size: 30px;
+  }
+  .cont {
     flex-direction: column;
+    align-items: center;
     padding: 10px;
-}
+  }
+  .section3{
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .section4{
+    flex-direction: column-reverse;
+    gap: 30px;
+    align-items: center;
+  }
 }
