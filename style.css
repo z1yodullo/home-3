@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+}
+header{
+    background-color: #F1DFD5;
+    padding: 20px;
+}
+.div{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lnav{
+    align-items: center;
+    display: flex;
+    gap: 80px;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+.in{
+    border: none;
+    background-color: #F1DFD5;
+}
+.get{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+}
